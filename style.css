@@ -117,6 +117,7 @@ span{
         flex-direction: row;   /* horizontal */
         justify-content: center;
         align-items: center;
+        font-size: 14px;
         gap: 20px;
     }
 
