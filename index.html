@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Phishing Example Demonstration</title>
+</head>
+
+<body>
+
+<main>
+
+    <nav class="Navbar">
+        <ul class="Nav-links">
+            <li class="Links">Home</li>
+            <li class="Links">Service</li>
+            <li class="Links">Features</li>
+            <li class="Links">About</li>
+        </ul>
+    </nav>
+
+
+    <form>
+
+        <div class="Login">
+
+            <label class="Signup">Sign up</label>
+
+
+            <input 
+            type="text" 
+            id="PRN"
+            placeholder="Please Enter PRN Number"
+            required>
+
+
+            <input 
+            type="password"
+            id="password"
+            placeholder="Please Enter Your Password"
+            required>
+
+
+            <button 
+            type="button"
+            class="submit"
+            onclick="login()">
+                Sign in
+            </button>
+
+
+            <br><br>
+
+
+            <label class="sign-in">
+                Don't have an account?
+                <span>Sign up</span>
+            </label>
+
+
+        </div>
+
+    </form>
+
+
+</main>
+
+
+<div id="popup" class="popup">
+
+    <div class="popup-box">
+
+        <h1 id="popup-message"></h1>
+
+        <button onclick="closePopup()">
+            OK
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
