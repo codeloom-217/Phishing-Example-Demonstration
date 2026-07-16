@@ -104,3 +104,58 @@ span{
 .popup-box h1 {
     font-size: 15px;
 }
+@media screen and (max-width: 768px) {
+
+    .Navbar {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .Nav-links {
+        position: static;
+        display: flex;
+        flex-direction: row;   /* horizontal */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .Links {
+        margin-top: 0;
+    }
+
+
+    .Login {
+        position: relative;
+        top: 80px;
+        left: 0;
+        width: 70%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+
+    .Signup {
+        font-size: 24px;
+    }
+
+
+    input {
+        width: 100%;
+        padding: 8px;
+    }
+
+
+    .submit {
+        width: 70%;
+    }
+
+
+    .popup-box {
+        width: 80%;
+        padding: 20px;
+    }
+
+}
