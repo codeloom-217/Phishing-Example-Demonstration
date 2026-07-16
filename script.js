@@ -72,7 +72,7 @@ function playBeep(duration) {
 
 
 
-    gainNode.gain.value = 0.09;
+    gainNode.gain.value = 0.12;
 
 
     oscillator.connect(gainNode);
